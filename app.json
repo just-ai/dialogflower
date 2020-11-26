@@ -2,7 +2,7 @@
   "name": "Dialogflower",
   "description": "Прокси-сервер для подключения Алисы к Dialogflow",
   "repository": "https://github.com/just-ai/dialogflower",
-  "logo": "",
+  "logo": "https://dialogflower.com/img/Dialogflower.jpg",
   "image": "heroku/java",
   "env": {
     "OAUTH_TOKEN": {
