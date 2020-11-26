@@ -1,0 +1,15 @@
+{
+  "name": "Dialogflower",
+  "description": "Прокси-сервер для подключения Алисы к Dialogflow",
+  "repository": "https://github.com/just-ai/dialogflower",
+  "logo": "",
+  "image": "heroku/java",
+  "env": {
+    "OAUTH_TOKEN": {
+      "description": "OAuth токен вашего аккаунта на Яндекс Диалогах"
+    },
+    "DIALOGFLOW_SERVICE_ACCOUNT": {
+      "description": "Содержимое вашего JSON файла сервисного аккаунта Dialogflow"
+    }
+  }
+}
