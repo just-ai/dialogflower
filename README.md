@@ -1,4 +1,6 @@
-# Dialogflower
+<p align="center">
+  <img src="https://just-ai.github.io/dialogflower/img/Dialogflower.png">
+</p>
 
 Прокси-сервер для подключения [Яндекс Алисы](https://dialogs.yandex.ru/) к [Google Dialogflow](https://cloud.google.com/dialogflow/es/docs).
 Позволяет создавать навык средствами Dialogflow, а затем подключить его к Алисе без написания дополнительного кода.
