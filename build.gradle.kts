@@ -38,6 +38,10 @@ tasks.withType<Jar> {
     }
 }
 
+tasks.shadowJar {
+    mergeServiceFiles()
+}
+
 tasks.create("stage") {
     dependsOn("shadowJar")
 }
