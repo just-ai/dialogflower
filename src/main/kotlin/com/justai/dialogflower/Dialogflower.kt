@@ -25,7 +25,8 @@ val dialogflower = BotEngine(
         model = MainScenario.model,
         activators = arrayOf(
                 DialogflowIntentActivator.Factory(
-                        connector = dialogflow
+                        connector = dialogflow,
+                        queryParametersProvider = PayloadProvider
                 )
         )
 )

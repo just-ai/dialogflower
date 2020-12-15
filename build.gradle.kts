@@ -22,6 +22,9 @@ dependencies {
     implementation(kotlin("stdlib"))
 
     implementation("io.ktor:ktor-server-netty:1.3.1")
+    implementation("com.google.protobuf:protobuf-java-util:3.14.0")
+    implementation("com.googlecode.protobuf-java-format:protobuf-java-format:1.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3")
 
     implementation("com.justai.jaicf:core:$jaicfVersion")
     implementation("com.justai.jaicf:dialogflow:$jaicfVersion")
