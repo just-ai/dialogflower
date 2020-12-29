@@ -4,7 +4,7 @@ import com.justai.jaicf.BotEngine
 import com.justai.jaicf.activator.dialogflow.DialogflowAgentConfig
 import com.justai.jaicf.activator.dialogflow.DialogflowConnector
 import com.justai.jaicf.activator.dialogflow.DialogflowIntentActivator
-import kotlinx.io.ByteArrayInputStream
+import java.io.ByteArrayInputStream
 import java.io.File
 
 private fun loadServiceAccount(): String {
